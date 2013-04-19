@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561ED8EC17220DB80086FB2D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 561ED8EB17220DB80086FB2D /* main.c */; };
+		561ED8EE17220DB80086FB2D /* DistributedParallelMandel.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 561ED8ED17220DB80086FB2D /* DistributedParallelMandel.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		561ED8E617220DB80086FB2D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				561ED8EE17220DB80086FB2D /* DistributedParallelMandel.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		561ED8E817220DB80086FB2D /* DistributedParallelMandel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DistributedParallelMandel; sourceTree = BUILT_PRODUCTS_DIR; };
+		561ED8EB17220DB80086FB2D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		561ED8ED17220DB80086FB2D /* DistributedParallelMandel.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DistributedParallelMandel.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561ED8E517220DB80086FB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561ED8DF17220DB80086FB2D = {
+			isa = PBXGroup;
+			children = (
+				561ED8EA17220DB80086FB2D /* DistributedParallelMandel */,
+				561ED8E917220DB80086FB2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		561ED8E917220DB80086FB2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561ED8E817220DB80086FB2D /* DistributedParallelMandel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561ED8EA17220DB80086FB2D /* DistributedParallelMandel */ = {
+			isa = PBXGroup;
+			children = (
+				561ED8EB17220DB80086FB2D /* main.c */,
+				561ED8ED17220DB80086FB2D /* DistributedParallelMandel.1 */,
+			);
+			path = DistributedParallelMandel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561ED8E717220DB80086FB2D /* DistributedParallelMandel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561ED8F117220DB80086FB2D /* Build configuration list for PBXNativeTarget "DistributedParallelMandel" */;
+			buildPhases = (
+				561ED8E417220DB80086FB2D /* Sources */,
+				561ED8E517220DB80086FB2D /* Frameworks */,
+				561ED8E617220DB80086FB2D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistributedParallelMandel;
+			productName = DistributedParallelMandel;
+			productReference = 561ED8E817220DB80086FB2D /* DistributedParallelMandel */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561ED8E017220DB80086FB2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Oguzhan Gungor";
+			};
+			buildConfigurationList = 561ED8E317220DB80086FB2D /* Build configuration list for PBXProject "DistributedParallelMandel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 561ED8DF17220DB80086FB2D;
+			productRefGroup = 561ED8E917220DB80086FB2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561ED8E717220DB80086FB2D /* DistributedParallelMandel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561ED8E417220DB80086FB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561ED8EC17220DB80086FB2D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		561ED8EF17220DB80086FB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		561ED8F017220DB80086FB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		561ED8F217220DB80086FB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		561ED8F317220DB80086FB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561ED8E317220DB80086FB2D /* Build configuration list for PBXProject "DistributedParallelMandel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561ED8EF17220DB80086FB2D /* Debug */,
+				561ED8F017220DB80086FB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561ED8F117220DB80086FB2D /* Build configuration list for PBXNativeTarget "DistributedParallelMandel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561ED8F217220DB80086FB2D /* Debug */,
+				561ED8F317220DB80086FB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561ED8E017220DB80086FB2D /* Project object */;
+}
